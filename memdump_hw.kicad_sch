@@ -4445,7 +4445,7 @@
     (property "Reference" "S1" (id 0) (at 251.46 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MEMSOCKET" (id 1) (at 251.46 121.92 0)
+    (property "Value" "SPI I2C" (id 1) (at 251.46 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J" (id 2) (at 248.92 115.57 0)
@@ -4751,7 +4751,7 @@
     (property "Reference" "S1" (id 0) (at 243.84 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MEMSOCKET" (id 1) (at 243.84 154.94 0)
+    (property "Value" "SPI I2C" (id 1) (at 243.84 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J" (id 2) (at 241.3 148.59 0)
@@ -4820,7 +4820,7 @@
     (in_bom yes) (on_board yes)
     (uuid 43d79bdd-1c63-4dc1-a6e0-61810ad9063c)
     (property "Reference" "U6" (id 0) (at 260.35 21.59 0))
-    (property "Value" "SST39SF040" (id 1) (at 261.62 85.09 0))
+    (property "Value" "DIP28/32" (id 1) (at 261.62 85.09 0))
     (property "Footprint" "Socket:DIP_Socket-32_W11.9_W12.7_W15.24_W17.78_W18.5_3M_232-1285-00-0602J" (id 2) (at 254 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6794,10 +6794,10 @@
       (reference "R42") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3e22c9d2-3dbc-4c3d-b98c-2f51c5f67b31"
-      (reference "S1") (unit 1) (value "MEMSOCKET") (footprint "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J")
+      (reference "S1") (unit 1) (value "SPI I2C") (footprint "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J")
     )
     (path "/23b9a9f4-6451-4c83-a048-f7037e88c31b"
-      (reference "S1") (unit 2) (value "MEMSOCKET") (footprint "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J")
+      (reference "S1") (unit 2) (value "SPI I2C") (footprint "Socket:DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J")
     )
     (path "/560c52e9-bce4-4b9e-99ae-f5412b8463f5"
       (reference "SW1") (unit 1) (value "RESET") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
@@ -6818,7 +6818,7 @@
       (reference "U5") (unit 1) (value "74HC595") (footprint "Package_SO:SOP-16_3.9x9.9mm_P1.27mm")
     )
     (path "/43d79bdd-1c63-4dc1-a6e0-61810ad9063c"
-      (reference "U6") (unit 1) (value "SST39SF040") (footprint "Socket:DIP_Socket-32_W11.9_W12.7_W15.24_W17.78_W18.5_3M_232-1285-00-0602J")
+      (reference "U6") (unit 1) (value "DIP28/32") (footprint "Socket:DIP_Socket-32_W11.9_W12.7_W15.24_W17.78_W18.5_3M_232-1285-00-0602J")
     )
     (path "/057877ef-03b8-4212-bb91-55fd22a09fa5"
       (reference "Y1") (unit 1) (value "12M") (footprint "Crystal:Crystal_HC18-U_Vertical")
